@@ -4,7 +4,7 @@ import Navigation from '../components/navigation/Navigation';
 import Head from 'next/head';
 
 
-const MainLayout = ({ children, title }) => {
+const MainLayout = ({ children }) => {
 
     useEffect(() => {
         window.scrollTo(0, 0)
@@ -12,9 +12,6 @@ const MainLayout = ({ children, title }) => {
 
     return (
         <React.Fragment>
-            <Head>
-                <title>{typeof title !== "undefined" && title !== null ? `Wavy Sharks Scoiety || ${title}` : "Wavy Sharks Scoiety"}</title>
-            </Head>
             <Navigation />
             <main>
                 {

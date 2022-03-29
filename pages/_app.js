@@ -1,9 +1,12 @@
 import { React } from 'react';
 import Head from 'next/head';
 import MainLayout from './../layouts/MainLayout';
-import '../styles/globals.css'
+import '../styles/globals.css';
+import '../styles/tailwind.css';
+import '../styles/customStyle.css'
 
 function MyApp({ Component, pageProps }) {
+
   return (
     <>
       <Head>

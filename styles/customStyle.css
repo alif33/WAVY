@@ -1,0 +1,23 @@
+.detail-section {
+  background-color: #1c056a;
+}
+.meet-section {
+  background-color: #10033b;
+}
+.top-section {
+  background-color: #1c056a;
+}
+
+.nav-section .banner-title h1 {
+  font-family: GROBOLD;
+}
+.section-title h2 {
+  font-family: GROBOLD;
+}
+.slider-title {
+  font-family: GROBOLD;
+}
+
+.nav-section{
+  background-image: url('../public/img/banner.jpg');
+}
