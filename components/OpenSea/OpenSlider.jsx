@@ -2,10 +2,10 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
-import { profile1 } from "../../public/img/profile1.jpg";
-import { profile2 } from "../../public/img/profile2.jpg";
-import { profile3 } from "../../public/img/profile3.jpg";
-import { profile4 } from "../../public/img/profile4.jpg";
+import profile1 from "../../public/img/profile1.jpg";
+import profile2 from "../../public/img/profile2.jpg";
+import profile3 from "../../public/img/profile3.jpg";
+import profile4 from "../../public/img/profile4.jpg";
 import CardList from "./CardList";
 
 const sliderData = [

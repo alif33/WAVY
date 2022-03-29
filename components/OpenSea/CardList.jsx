@@ -4,9 +4,11 @@ import awesomeFire from "../../public/img/icon/Icon awesome-fire.svg";
 const CardList = ({ cardList }) => {
   console.log(cardList);
   return (
-    <>
+    <div>
       <div className="slider-img p-3">
-        <div>{/* <Image src={cardList.img} alt="profile 5" /> */}</div>
+        <div>
+          <Image src={cardList.img} alt="profile 5" />
+        </div>
         <div className="mt-2 slider-title">
           <div className="flex justify-between border-b border-black pb-2">
             <h3 className="text-white  text-xl font-black slider-title">
@@ -45,7 +47,7 @@ const CardList = ({ cardList }) => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
