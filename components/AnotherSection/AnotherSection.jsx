@@ -1,8 +1,8 @@
 import Image from "next/image";
-import profile1 from "/public/img/profile1.jpg";
-import profile2 from "/public/img/profile2.jpg";
-import profile3 from "/public/img/profile3.jpg";
-import profile4 from "/public/img/profile4.jpg";
+import profile1 from "../../public/img/profile1.jpg";
+import profile2 from "../../public/img/profile2.jpg";
+import profile3 from "../../public/img/profile3.jpg";
+import profile4 from "../../public/img/profile4.jpg";
 
 const data = [
   {
@@ -38,7 +38,13 @@ const AnotherSection = () => {
         <div className="grid grid-cols-4 gap-10 py-28">
           {data.map((item, i) => (
             <div key={i}>
-              <Image className="rounded-md" src={item.img} alt="" />
+              <Image
+                width={100}
+                height={100}
+                className="rounded-md"
+                src={item.img}
+                alt=""
+              />
               <div className="flex gap-1 justify-between pt-3">
                 <h3 className="text-white text-2xl">{item.name}</h3>
                 <button className="uppercase bg-[#12c805] brightness-100 px-3 py-1 rounded-md text-white">
