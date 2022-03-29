@@ -1,15 +1,17 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import unique from "../public/img/unique.png"
+import AnotherSection from '../components/AnotherSection/AnotherSection'
+import Roadmap from '../components/Roadmap/Roadmap'
 import awesomeArrowRight from "../public/img/icon/Icon awesome-arrow-left (1).svg"
 import awesomeArrowLeft from "../public/img/icon/Icon awesome-arrow-left.svg"
+import awesomeFire from "../public/img/icon/Icon awesome-fire.svg"
 import profile1 from "../public/img/profile1.jpg"
 import profile2 from "../public/img/profile2.jpg"
 import profile3 from "../public/img/profile3.jpg"
 import profile5 from "../public/img/profile5.png"
-import awesomeFire from "../public/img/icon/Icon awesome-fire.svg"
 import profile6 from "../public/img/profile6.png"
 import profile7 from "../public/img/profile7.png"
+import unique from "../public/img/unique.png"
 
 
 export default function Home() {
@@ -192,8 +194,11 @@ export default function Home() {
           </div>
         </div>
       </section >
+    {/* Roadmap */}
 
-
+     <Roadmap/>
+     <AnotherSection/>
+     
     </div >
   )
 }
