@@ -46,7 +46,9 @@ const AnotherSection = () => {
                 alt=""
               />
               <div className="flex gap-1 justify-between pt-3">
-                <h3 className="text-white text-2xl">{item.name}</h3>
+                <h3 className="text-white text-[25px] font-[GROBOLD] tracking-[1px]">
+                  {item.name}
+                </h3>
                 <button className="uppercase bg-[#12c805] brightness-100 px-3 py-1 rounded-md text-white">
                   {item.base}
                 </button>

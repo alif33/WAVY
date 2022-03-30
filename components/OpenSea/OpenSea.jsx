@@ -9,7 +9,7 @@ const OpenSea = () => {
           <button className="text-base bg-lime-500 text-white rounded-lg px-12 py-3 shadow-lg mt-8">
             View On Opensea
           </button>
-          <h2 className="text-right text-4xl font-bold text-white">
+          <h2 className="text-right text-[3.438rem] font-[GROBOLD] leading-[4.563rem] tracking-[2.2px] font-bold text-white">
             <span className="text-lime-500">TOP</span>
             <br />
             WAVY SHARKS

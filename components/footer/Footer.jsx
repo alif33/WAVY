@@ -11,12 +11,13 @@ const Footer = () => {
           <div className="lg:grid lg:grid-cols-12 overflow-hidden">
             <div className="flex items-center col-span-4 px-12 lg:px-0">
               <div>
-                <h1 className=" text-4xl uppercase font-bold text-[#12c605]">
+                <h1 className="font-[GROBOLD] tracking-[0.3rem]  text-5xl uppercase font-bold text-[#12c605]">
                   Join Our
                 </h1>
-                <h2 className="text-4xl uppercase font-bold text-white">
+                <br />
+                <span className="font-[GROBOLD] tracking-[0.3rem]  text-5xl uppercase font-bold text-white">
                   Community
-                </h2>
+                </span>
                 <p className="text-white text-base pt-7">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Laborum tempore maxime ut veritatis temporibus animi quos

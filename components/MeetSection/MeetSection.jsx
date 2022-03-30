@@ -59,8 +59,8 @@ const MeetSection = () => {
         <div className=" mx-auto">
           <div className="lg:grid  lg:grid-cols-5 gap-8 justify-center items-center py-24">
             <div className="lg:ml-60  col-span-2">
-              <div className="section-title px-12 lg:px-0">
-                <h2 className="text-white text-4xl font-black">
+              <div className="section-title pl-12 ">
+                <h2 className="text-white text-[3.438rem] font-[GROBOLD] leading-[4.563rem] tracking-[2.2px]">
                   MEET THE WAVY SHARKS
                 </h2>
                 <p className="text-white text-base py-6">

@@ -12,7 +12,7 @@ const DetailSection = () => {
             </div>
             <div className="">
               <div className="section-title">
-                <h2 className="text-5xl text-white font-black ">
+                <h2 className="text-5xl text-white font-black text-[3.438rem] font-[GROBOLD] leading-[4.563rem] tracking-[2.2px]">
                   <span className="text-lime-500">8,888</span>
                   UNIQUE
                   <br />
