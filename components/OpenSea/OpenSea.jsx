@@ -1,11 +1,7 @@
-import Image from "next/image";
-import React, { useRef } from "react";
-import awesomeArrowRight from "../../public/img/icon/Icon awesome-arrow-left (1).svg";
-import awesomeArrowLeft from "../../public/img/icon/Icon awesome-arrow-left.svg";
+import React from "react";
 import OpenSlider from "./OpenSlider";
 
 const OpenSea = () => {
-  let sliderRef = useRef();
   return (
     <>
       <section className="top-section py-24">
@@ -22,23 +18,7 @@ const OpenSea = () => {
 
         {/* <!-- =============SLIDER IMG =============== --> */}
         <div className=" mt-20">
-          <OpenSlider ref={sliderRef} />
-        </div>
-        <div>
-          <div className="arrow-div space-x-20 text-center mt-10">
-            <button
-              onClick={() => slickPrev()}
-              className="bg-[#12c805] p-3 rounded-lg"
-            >
-              <Image className="w-9/12" src={awesomeArrowLeft} alt="" />
-            </button>
-            <button
-              onClick={() => slickNext()}
-              className="bg-[#12c805] p-3 rounded-lg"
-            >
-              <Image className="w-9/12" src={awesomeArrowRight} alt="" />
-            </button>
-          </div>
+          <OpenSlider />
         </div>
       </section>
     </>
