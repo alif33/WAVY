@@ -9,6 +9,9 @@ import profile1 from "../../public/img/profile1.jpg";
 import profile2 from "../../public/img/profile2.jpg";
 import profile3 from "../../public/img/profile3.jpg";
 import profile4 from "../../public/img/profile4.jpg";
+import profile5 from "../../public/img/profile5.png";
+import profile6 from "../../public/img/profile6.png";
+import profile7 from "../../public/img/profile7.png";
 import CardList from "./CardList";
 
 const sliderData = [
@@ -45,30 +48,61 @@ const sliderData = [
     img: profile4,
   },
   {
-    id: 4,
+    id: 5,
     status: "Coming Soon",
     price: "150 ETH",
     condition: "New Bid",
     position: "Height bid A LOT OF ETH",
-    img: profile4,
+    img: profile5,
   },
   {
-    id: 4,
+    id: 6,
     status: "Coming Soon",
     price: "150 ETH",
     condition: "New Bid",
     position: "Height bid A LOT OF ETH",
-    img: profile4,
+    img: profile6,
+  },
+  {
+    id: 7,
+    status: "Coming Soon",
+    price: "150 ETH",
+    condition: "New Bid",
+    position: "Height bid A LOT OF ETH",
+    img: profile7,
   },
 ];
 
 const OpenSlider = () => {
   const settings = {
     dots: false,
-    infinite: true,
+    infinite: false,
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   const sliderRef = useRef();

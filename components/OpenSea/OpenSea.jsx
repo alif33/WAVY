@@ -5,7 +5,7 @@ const OpenSea = () => {
   return (
     <>
       <section className="top-section py-24">
-        <div className="section-title w-9/12 mx-auto flex justify-between ">
+        <div className="section-title w-9/12 mx-auto md:flex space-y-4 justify-between items-center ">
           <button className="text-base bg-lime-500 text-white rounded-lg px-12 py-3 shadow-lg mt-8">
             View On Opensea
           </button>

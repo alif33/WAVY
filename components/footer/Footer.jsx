@@ -6,10 +6,10 @@ import BottomFooter from "./BottomFooter";
 const Footer = () => {
   return (
     <section className="">
-      <div className="bg-[#1c056a]">
-        <div className="ml-60">
-          <div className="grid grid-cols-12 overflow-hidden">
-            <div className="flex items-center col-span-4">
+      <div className="bg-[#1c056a] pt-12">
+        <div className="lg:ml-60 ">
+          <div className="lg:grid lg:grid-cols-12 overflow-hidden">
+            <div className="flex items-center col-span-4 px-12 lg:px-0">
               <div>
                 <h1 className=" text-4xl uppercase font-bold text-[#12c605]">
                   Join Our
@@ -29,8 +29,8 @@ const Footer = () => {
                 </button>
               </div>
             </div>
-            <div className="col-span-8 relative">
-              <div className="pt-6 -mb-[7rem]">
+            <div className="col-span-8 relative  lg:px-0">
+              <div className="pt-6 lg:-mb-[7rem] -mb-12">
                 <Image
                   height={800}
                   className="absolute -bottom-28"

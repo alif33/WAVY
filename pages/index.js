@@ -1,14 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import AnotherSection from '../components/AnotherSection/AnotherSection'
+import MeetSection from '../components/MeetSection/MeetSection'
 import OpenSea from '../components/OpenSea/OpenSea'
 import Roadmap from '../components/Roadmap/Roadmap'
-import awesomeArrowRight from "../public/img/icon/Icon awesome-arrow-left (1).svg"
-import awesomeArrowLeft from "../public/img/icon/Icon awesome-arrow-left.svg"
-import profile1 from "../public/img/profile1.jpg"
-import profile2 from "../public/img/profile2.jpg"
-import profile3 from "../public/img/profile3.jpg"
 import unique from "../public/img/unique.png"
+
 
 
 export default function Home() {
@@ -55,48 +52,7 @@ export default function Home() {
       </section>
 
 
-      <section className="meet-section">
-        <div className="w-9/12 mx-auto">
-          <div className="lg:grid  lg:grid-cols-3 gap-8 justify-center items-center py-24">
-            <div className="">
-              <div className="section-title">
-                <h2 className="text-white text-4xl font-black">MEET THE WAVY SHARKS</h2>
-                <p className="text-white text-base py-6">Lorem ipsum dolor sit amet consectetur adipisicing
-                  elit. Neque vel, iste doloremque,
-                  accusantium, hic veniam perspiciatis libero eaque dolores blanditiis voluptatum
-                  iure
-                  reprehenderit nihil in. Aliquid nesciunt repellat reprehenderit accusantium.</p>
-                <div className="arrow-div space-x-3">
-                  <button className="bg-lime-500 p-3 rounded-lg">
-                    <Image className="w-9/12" src={awesomeArrowLeft} alt="" />
-                  </button>
-                  <button className="bg-lime-500 p-3 rounded-lg">
-                    <Image className="w-9/12" src={awesomeArrowRight}
-                      alt="" />
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div className="col-span-2 ">
-              <div className="grid grid-cols-3  justify-center items-center ">
-                <div>
-                  <Image src={profile1} alt="" />
-                </div>
-                <div>
-                  <Image src={profile2} alt="" />
-                </div>
-                <div>
-                  <Image src={profile3} alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-
-
-
+      <MeetSection/>
      <OpenSea/>
     {/* Roadmap */}
 

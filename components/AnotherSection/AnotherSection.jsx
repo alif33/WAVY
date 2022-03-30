@@ -35,12 +35,12 @@ const AnotherSection = () => {
   return (
     <section className="meet-section">
       <div className="w-9/12 mx-auto">
-        <div className="grid grid-cols-4 gap-10 py-28">
+        <div className="lg:grid lg:grid-cols-4  gap-10 py-28">
           {data.map((item, i) => (
-            <div key={i}>
+            <div className="my-8" key={i}>
               <Image
-                width={500}
-                height={500}
+                width={400}
+                height={400}
                 className="rounded-md"
                 src={item.img}
                 alt=""
