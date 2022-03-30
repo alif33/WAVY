@@ -39,8 +39,8 @@ const AnotherSection = () => {
           {data.map((item, i) => (
             <div key={i}>
               <Image
-                width={100}
-                height={100}
+                width={500}
+                height={500}
                 className="rounded-md"
                 src={item.img}
                 alt=""

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
@@ -41,23 +41,46 @@ const sliderData = [
     position: "Height bid A LOT OF ETH",
     img: profile4,
   },
+  {
+    id: 4,
+    status: "Coming Soon",
+    price: "150 ETH",
+    condition: "New Bid",
+    position: "Height bid A LOT OF ETH",
+    img: profile4,
+  },
+  {
+    id: 4,
+    status: "Coming Soon",
+    price: "150 ETH",
+    condition: "New Bid",
+    position: "Height bid A LOT OF ETH",
+    img: profile4,
+  },
 ];
-const OpenSlider = () => {
+
+const OpenSlider = ({ ref }) => {
+  console.log(ref);
   const settings = {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 2,
+    slidesToShow: 4,
     slidesToScroll: 1,
   };
+  const sliderRef = useRef();
+
   return (
-    <>
-      <Slider {...settings}>
+    <div>
+      <Slider ref={sliderRef} {...settings}>
         {sliderData.map((item, i) => (
           <CardList key={i} cardList={item} />
         ))}
       </Slider>
-    </>
+      <div>
+        <button className="bg-green-500 text-white cursor-pointer">next</button>
+      </div>
+    </div>
   );
 };
 

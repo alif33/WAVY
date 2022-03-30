@@ -7,7 +7,6 @@ const List = ({ list }) => {
       setCollapse(!collapse);
     }
   };
-  console.log(collapse);
   return (
     <>
       <li

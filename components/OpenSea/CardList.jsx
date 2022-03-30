@@ -2,30 +2,35 @@ import Image from "next/image";
 import React from "react";
 import awesomeFire from "../../public/img/icon/Icon awesome-fire.svg";
 const CardList = ({ cardList }) => {
-  console.log(cardList);
   return (
-    <div>
+    <div className="w-full p-4">
       <div className="slider-img p-3">
-        <div>
-          <Image src={cardList.img} alt="profile 5" />
+        <div className="">
+          <Image
+            className="rounded-lg"
+            width={600}
+            height={650}
+            src={cardList.img}
+            alt=""
+          />
         </div>
         <div className="mt-2 slider-title">
           <div className="flex justify-between border-b border-black pb-2">
             <h3 className="text-white  text-xl font-black slider-title">
               COMING SOON{" "}
             </h3>
-            <p className="text-white text-sm bg-lime-500 py-1 px-2 rounded-lg ">
+            <p className="text-white text-sm bg-[#12c805] py-1 px-2 rounded-lg ">
               150 ETC
             </p>
           </div>
-          <div className="flex justify-between py-1">
-            <p className="text-gray-500 text-sm">
+          <div className="flex justify-between py-1 items-center">
+            <p className="text-gray-500 text-sm flex gap-4">
               {" "}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width={16}
                 height={16}
-                fill="whtie"
+                fill="#6b7280"
                 className="bi bi-sliders2-vertical"
                 viewBox="0 0 16 16"
               >
@@ -36,13 +41,9 @@ const CardList = ({ cardList }) => {
               </svg>{" "}
               Highest bid A LOT OF ETH
             </p>
-            <p className="text-gray-500 text-sm inline-flex">
+            <p className="text-gray-500 text-sm flex items-center">
               New Bid
-              <Image
-                className="w-1/3 -top-2 relative"
-                src={awesomeFire}
-                alt="awesomeFire"
-              />
+              <Image className="relative" src={awesomeFire} alt="awesomeFire" />
             </p>
           </div>
         </div>
