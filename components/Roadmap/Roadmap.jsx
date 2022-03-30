@@ -65,19 +65,25 @@ const dataList = [
 ];
 const Roadmap = () => {
   return (
-    <section className="top-section py-24">
-      <div className="w-9/12 mx-auto">
+    <section className="top-section">
+      <div className="mx-auto px-4 lg:px-0">
         <h1 className="uppercase text-center text-4xl font-bold text-lime-500">
           Wavy Sharks
         </h1>
         <h1 className="uppercase text-center text-4xl font-bold text-white">
           Socity Roadmap
         </h1>
-        <div className="lg:grid lg:grid-cols-2 gap-6 pt-28">
-          <div className="pl-0 p-10">
-            <Image width={700} height={700} src={img} alt="" />
+        <div className="lg:grid lg:grid-cols-2">
+          <div className="lg:pl-60 roadmap-block pt-16 pb-16 lg:pb-64">
+            <Image
+              className="pl-10"
+              width={700}
+              height={700}
+              src={img}
+              alt=""
+            />
           </div>
-          <div className="pr-0 lg:p-10">
+          <div className="pr-0 lg:p-10 lg:mt-20 lg:mr-60">
             <div className="bg-[#14044d]  rounded-md ">
               <h1 className="uppercase text-3xl bg-[#14044d] py-6 text-white text-center sticky top-0">
                 Wavy Shark Society
