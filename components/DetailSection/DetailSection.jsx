@@ -8,7 +8,9 @@ const DetailSection = () => {
         <div className="w-9/12 mx-auto py-24">
           <div className="lg:grid lg:grid-cols-2 gap-8 justify-center items-center">
             <div className="mx-auto">
-              <Image className="" src={unique} alt="unique image" />
+              <div className="unique">
+                <Image className="" src={unique} alt="unique image" />
+              </div>
             </div>
             <div className="">
               <div className="section-title">

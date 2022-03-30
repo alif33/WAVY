@@ -58,7 +58,7 @@ const Navigation = () => {
             </button>
           </div>
           <div>
-            <div>
+            <div className="bannerShark">
               <Image src={bannerShark} alt="banner Shark" />
             </div>
           </div>

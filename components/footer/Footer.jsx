@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import dolpin from "../../public/img/join-shark.png";
+// import dolpin from "../../public/img/join-shark.png";
+import dolpin from "../../public/img/flow-shark-filp.png";
 import BottomFooter from "./BottomFooter";
 
 const Footer = () => {
@@ -32,12 +33,14 @@ const Footer = () => {
             </div>
             <div className="col-span-8 relative  lg:px-0">
               <div className="pt-6 lg:-mb-[7rem] -mb-12">
-                <Image
-                  height={800}
-                  className="absolute -bottom-28"
-                  src={dolpin}
-                  alt=""
-                />
+                <div className="dolphin">
+                  <Image
+                    height={800}
+                    className="absolute -bottom-28"
+                    src={dolpin}
+                    alt=""
+                  />
+                </div>
               </div>
             </div>
           </div>

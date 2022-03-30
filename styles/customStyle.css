@@ -41,3 +41,138 @@ body {
   background-image: url('../public/img/roadmap/Path-1235.png');
   background-repeat: no-repeat;
 }
+
+
+
+.bannerShark, .unique, .dolphin {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  -webkit-animation-name: floating;
+  animation-name: floating;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+
+@-webkit-keyframes floatingWithRotate {
+  0% {
+    -webkit-transform: translatey(0px) rotate(-25deg);
+    transform: translatey(0px) rotate(-25deg);
+  }
+
+  50% {
+    -webkit-transform: translatey(-20px) rotate(-25deg);
+    transform: translatey(-20px) rotate(-25deg);
+  }
+
+  100% {
+    -webkit-transform: translatey(0px) rotate(-25deg);
+    transform: translatey(0px) rotate(-25deg);
+  }
+}
+
+@keyframes floatingWithRotate {
+  0% {
+    -webkit-transform: translatey(0px) rotate(-25deg);
+    transform: translatey(0px) rotate(-25deg);
+  }
+
+  50% {
+    -webkit-transform: translatey(-20px) rotate(-25deg);
+    transform: translatey(-20px) rotate(-25deg);
+  }
+
+  100% {
+    -webkit-transform: translatey(0px) rotate(-25deg);
+    transform: translatey(0px) rotate(-25deg);
+  }
+}
+
+@-webkit-keyframes floating {
+  0% {
+    -webkit-transform: translatey(0px);
+    transform: translatey(0px);
+  }
+
+  50% {
+    -webkit-transform: translatey(-20px);
+    transform: translatey(-20px);
+  }
+
+  100% {
+    -webkit-transform: translatey(0px);
+    transform: translatey(0px);
+  }
+}
+
+@keyframes floating {
+  0% {
+    -webkit-transform: translatey(0px);
+    transform: translatey(0px);
+  }
+
+  50% {
+    -webkit-transform: translatey(-20px);
+    transform: translatey(-20px);
+  }
+
+  100% {
+    -webkit-transform: translatey(0px);
+    transform: translatey(0px);
+  }
+}
+
+
+.fadeIn {
+  animation-name: fadeIn;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+.fadeOut {
+  animation-name: fadeOut;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+.neko-card-floating {
+  transform: translatey(0px);
+  animation: float 1s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+
+  50% {
+    transform: translatey(-20px);
+  }
+
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
+
+@-webkit-keyframes spinner-border-r {
+  to {
+    transform: rotate(-360deg)
+  }
+}
+
+@keyframes spinner-border-r {
+  to {
+    transform: rotate(-360deg)
+  }
+}
