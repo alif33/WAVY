@@ -6,7 +6,7 @@ import BottomFooter from "./BottomFooter";
 const Footer = () => {
   return (
     <section className="">
-      <div className="bg-[#1c056a] pt-12">
+      <div className="bg-[#1c056a] pt-12 sm:pt-0">
         <div className="lg:ml-60 ">
           <div className="lg:grid lg:grid-cols-12 overflow-hidden">
             <div className="flex items-center col-span-4 px-12 lg:px-0">

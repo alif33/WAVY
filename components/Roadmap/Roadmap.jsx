@@ -38,12 +38,27 @@ const dataList = [
     text: "Welcome to the society we will become the most exlusive underwate organization in the  metavers. wavy sharks public mint is coming soon the presale datewill be announceda as soon as we complete all the back-end work for the project.",
   },
   {
-    id: 7,
+    id: 8,
     title: "Insula Septem",
     text: "Welcome to the society we will become the most exlusive underwate organization in the  metavers. wavy sharks public mint is coming soon the presale datewill be announceda as soon as we complete all the back-end work for the project.",
   },
   {
-    id: 7,
+    id: 9,
+    title: "Insula Septem",
+    text: "Welcome to the society we will become the most exlusive underwate organization in the  metavers. wavy sharks public mint is coming soon the presale datewill be announceda as soon as we complete all the back-end work for the project.",
+  },
+  {
+    id: 9,
+    title: "Insula Septem",
+    text: "Welcome to the society we will become the most exlusive underwate organization in the  metavers. wavy sharks public mint is coming soon the presale datewill be announceda as soon as we complete all the back-end work for the project.",
+  },
+  {
+    id: 9,
+    title: "Insula Septem",
+    text: "Welcome to the society we will become the most exlusive underwate organization in the  metavers. wavy sharks public mint is coming soon the presale datewill be announceda as soon as we complete all the back-end work for the project.",
+  },
+  {
+    id: 9,
     title: "Insula Septem",
     text: "Welcome to the society we will become the most exlusive underwate organization in the  metavers. wavy sharks public mint is coming soon the presale datewill be announceda as soon as we complete all the back-end work for the project.",
   },
@@ -63,12 +78,12 @@ const Roadmap = () => {
             <Image width={700} height={700} src={img} alt="" />
           </div>
           <div className="pr-0 lg:p-10">
-            <div className="bg-[#14044d]  rounded-md h-4/5 before:relative overflow-y-scroll overscroll-y-contain">
+            <div className="bg-[#14044d]  rounded-md ">
               <h1 className="uppercase text-3xl bg-[#14044d] py-6 text-white text-center sticky top-0">
                 Wavy Shark Society
               </h1>
-              <div className="p-6">
-                <ul className="text-white mt-6">
+              <div className="p-6 ">
+                <ul className="text-white  h-[32rem] before:relative scrollbar-thin scrollbar-thumb-lime-500 scrollbar-track-gray-900 overflow-y-scroll  scrollbar-track-rounded-full">
                   {dataList.map((item, i) => (
                     <List list={item} key={i} />
                   ))}

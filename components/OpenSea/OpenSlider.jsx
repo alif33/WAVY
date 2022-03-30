@@ -89,6 +89,13 @@ const OpenSlider = () => {
         },
       },
       {
+        breakpoint: 900,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        },
+      },
+      {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,

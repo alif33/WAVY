@@ -11,7 +11,7 @@ const List = ({ list }) => {
     <>
       <li
         onClick={() => handleCollapse(list.id)}
-        className="bg-[#19065b] p-3 rounded-md my-3"
+        className="bg-[#19065b] p-3 rounded-md my-3 mr-7"
       >
         <div className="flex justify-between items-center cursor-pointer text-2xl    ">
           {list.title}{" "}
