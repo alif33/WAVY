@@ -32,11 +32,13 @@ const Footer = () => {
               </div>
             </div>
             <div className="col-span-8 relative  lg:px-0">
-              <div className="pt-6 lg:-mb-[7rem] -mb-12">
-                <div className="dolphin">
+              {/* lg:-mb-[7rem] -mb-12 */}
+              <div className="pt-6">
+                <div className="footer-block pt-12 -mb-0">
                   <Image
                     height={800}
-                    className="absolute -bottom-28"
+                    width={800}
+                    className="  dolphin"
                     src={dolpin}
                     alt=""
                   />

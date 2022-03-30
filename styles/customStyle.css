@@ -42,6 +42,11 @@ body {
   background-repeat: no-repeat;
 }
 
+.footer-block {
+  background-image: url('../public/img/footer-1236.png');
+  background-repeat: no-repeat;
+}
+
 
 
 .bannerShark, .unique, .dolphin {
