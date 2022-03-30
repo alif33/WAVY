@@ -66,7 +66,7 @@ const dataList = [
 const Roadmap = () => {
   return (
     <section className="top-section">
-      <div className="mx-auto px-4 lg:px-0">
+      <div className="mx-auto px-4 py-4 lg:px-0">
         <h1 className="text-[3.438rem] font-[GROBOLD] leading-[4.563rem] tracking-[2.2px] uppercase text-center  font-bold text-lime-500">
           Wavy Sharks
         </h1>
